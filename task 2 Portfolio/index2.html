@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0 " />
+    <title>MyPortfolio|Sahilverma</title>
+
+    <!--custom css files link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!---- font awsome cdn link--
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">             --->
+    <script src="https://kit.fontawesome.com/148aebb245.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Sahil Verma from HBTU</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------about------------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/com.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome, dear reader, to a journey through words and ideas. In the vast expanse of human knowledge and creativity, we find ourselves at the intersection of curiosity and information. As we embark on this exploration, let the tapestry of language weave its magic, unraveling stories, insights, and perspectives. Whether you seek to expand your understanding, find inspiration, or simply savor the beauty of expression, these words are the vessel for our shared voyage. Together, we will navigate the realms of thought, delve into the intricacies of existence, and celebrate the richness of human experience. So, with an open mind and a curious heart, let us embark on this intellectual odyssey, where the potential for discovery is as boundless as the imagination itsel!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><i class="fa-brands fa-python" ></i></span>  Python </li>
+                            <li><span><i class="fa-regular fa-file-code" ></i></span>  HTML,CSS</li>
+                            <li><span><i class="fa-brands fa-js" ></i></span>  Javascript</li>
+                            <li><span><i class="fa-solid fa-database" ></i></span>  SQL</li>
+                             
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>High School</li>
+                            <li><span>2020</span><br>Intermediate</li>
+                            <li><span>2021-Current</span><br>Btech in Electronics Engineering</li>
+                        </ul>
+                    </div>
+
+                </div>
+             
+            </section>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!----------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>EV STARTUP</h2>
+                    <p>The EV startup service pioneers sustainable transportation, offering innovative electric vehicle solutions. With a commitment to eco-friendly mobility, it envisions a cleaner future and shapes the landscape of the automotive industry!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>VIDEO EDITING</h2>
+                    <p>Our video editing service transforms raw footage into captivating visual stories. With skilled editors and cutting-edge tools, we enhance your content, ensuring a professional, polished, and engaging final product!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEBSITE DESIGNING</h2>
+                    <p>Our website designing service crafts compelling digital experiences. We blend creativity and functionality to build user-friendly, visually stunning websites that leave a lasting impression and drive online success for businesses!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------------------portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/bhel.png">
+                    <div class="layer">
+                        <h3>BHEL INTERNSHIP</h3>
+                        <p>The BHEL internship provided valuable hands-on experience in engineering. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/landingpage.png">
+                    <div class="layer">
+                        <h3>Landing Page using HTML & CSS</h3>
+                        <p>Great Experience about CSS and HTML.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ebike.png">
+                    <div class="layer">
+                        <h3>E-BIKE IN HBTU</h3>
+                        <p>Innovation in the field of EV Era. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------------------------contact--------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>210106056@hbtu.ac.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6388760043</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/myresume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2023 Sahil verma <i class="fa-solid fa-heart"></i> All Right Rserved</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
